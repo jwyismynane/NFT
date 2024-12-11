@@ -1,0 +1,47 @@
+/* styles.css 或其他CSS文件 */
+body {
+    background-color: #f7f9fa; /* 背景颜色 */
+  }
+  
+  .container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .nft-card {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nft-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .nft-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-title {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nft-description {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-price {
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
